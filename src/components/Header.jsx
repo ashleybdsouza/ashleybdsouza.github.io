@@ -1,16 +1,24 @@
+import { useState } from "react";
 import { NavLink } from "react-router-dom";
+import './Header.css';
 
 export default function Header() {
+  const [menuOpen, setMenuOpen] = useState(false);
+
   return (
-    <header style={styles.header}>
-      <div style={styles.left}>
-        <NavLink to="/" style={styles.name}>
+    <header>
+      <div className="header-left">
+        <NavLink to="/" className="name">
           Ashley Dsouza
         </NavLink>
-        <div style={styles.subtitle}>Technical Program Manager</div>
+        <div className="subtitle">Technical Program Manager</div>
       </div>
 
-      <nav style={styles.nav}>
+      <div className="menu-toggle" onClick={() => setMenuOpen(!menuOpen)}>
+        ☰
+      </div>
+
+      <nav className={menuOpen ? "show" : ""}>
         <NavItem to="/blog" label="Blog" />
         <NavItem to="/projects" label="Projects" />
         <NavItem to="/about" label="About" />
@@ -23,49 +31,9 @@ function NavItem({ to, label }) {
   return (
     <NavLink
       to={to}
-      style={({ isActive }) => ({
-        ...styles.link,
-        ...(isActive ? styles.active : {}),
-      })}
+      className={({ isActive }) => (isActive ? "active" : "")}
     >
       {label}
     </NavLink>
   );
 }
-
-const styles = {
-  header: {
-    display: "flex",
-    justifyContent: "space-between",
-    alignItems: "baseline",
-    padding: "2rem",
-    borderBottom: "1px solid #eee",
-  },
-  left: {
-    display: "flex",
-    flexDirection: "column",
-  },
-  name: {
-    fontSize: "1.2rem",
-    fontWeight: 600,
-    color: "#111",
-    textDecoration: "none",
-  },
-  subtitle: {
-    fontSize: "0.9rem",
-    color: "#666",
-  },
-  nav: {
-    display: "flex",
-    gap: "1.5rem",
-  },
-  link: {
-    textDecoration: "none",
-    color: "#555",
-    fontSize: "0.95rem",
-  },
-  active: {
-    color: "#111",
-    fontWeight: 500,
-  },
-};
