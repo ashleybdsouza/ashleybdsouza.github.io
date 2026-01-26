@@ -1,12 +1,20 @@
 import { useState } from "react";
 import { NavLink } from "react-router-dom";
+import { useLocation } from "react-router-dom";
+import { useEffect } from "react";
 import './Header.css';
+
 
 export default function Header() {
   const [menuOpen, setMenuOpen] = useState(false);
 
   const closeMenu = () => setMenuOpen(false);
+  const location = useLocation();
 
+  useEffect(() => {
+      setMenuOpen(false);
+  }, [location.pathname]);
+  
   return (
     <>
       {/* Overlay */}
@@ -15,7 +23,7 @@ export default function Header() {
         onClick={closeMenu}
       ></div>
 
-      <header>
+      <header className="site-header">
         <div className="header-left">
           <NavLink to="/" className="name" onClick={closeMenu}>
             Ashley Dsouza
@@ -23,9 +31,14 @@ export default function Header() {
           <div className="subtitle">Technical Program Manager</div>
         </div>
 
-        <div className="menu-toggle" onClick={() => setMenuOpen(!menuOpen)}>
+        <button
+          className="menu-toggle"
+          onClick={() => setMenuOpen(!menuOpen)}
+          aria-label="Toggle navigation"
+          aria-expanded={menuOpen}
+        >
           ☰
-        </div>
+        </button>
 
         <nav className={menuOpen ? "show" : ""}>
           <NavItem to="/blog" label="Blog" closeMenu={closeMenu} />

@@ -1,5 +1,5 @@
 /* General header */
-header {
+.site-header {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -27,19 +27,19 @@ header {
 }
 
 /* Nav links */
-nav {
+.site-header nav {
   display: flex;
   gap: 1.5rem;
   transition: transform 0.3s ease, opacity 0.3s ease;
 }
 
-nav a {
+.site-header nav a {
   text-decoration: none;
   color: #555;
   font-size: 0.95rem;
 }
 
-nav a.active {
+.site-header nav a.active {
   color: #111;
   font-weight: 500;
 }
@@ -66,6 +66,10 @@ nav a.active {
   height: 100%;
   background: rgba(0, 0, 0, 0.4); /* semi-transparent */
   z-index: 100; /* below nav but above page content */
+}
+
+nav a:hover {
+  color: #111;
 }
 
 /* Mobile styles */
