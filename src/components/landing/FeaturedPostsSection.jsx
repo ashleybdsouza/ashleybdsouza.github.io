@@ -1,6 +1,7 @@
 import useInView from "../../hooks/useInView";
 import { posts } from "../../data/posts";
 import "./featured-posts.css";
+import "../../styles/landing.css";
 
 export default function FeaturedPostsSection() {
   const [ref, inView] = useInView();
