@@ -1,6 +1,6 @@
 import AboutSection from "../components/landing/AboutSection";
 import TimelineSection from "../components/landing/TimelineSection";
-import TechSection from "../components/landing/TechSection";
+import DeliveryCapabilities from "../components/landing/DeliveryCapabilities";
 import FeaturedPostsSection from "../components/landing/FeaturedPostsSection";
 
 export default function Landing() {
@@ -10,7 +10,7 @@ export default function Landing() {
     <main>
       <AboutSection />
       <TimelineSection />
-      <TechSection />
+      <DeliveryCapabilities />
       <FeaturedPostsSection />
     </main>
   );

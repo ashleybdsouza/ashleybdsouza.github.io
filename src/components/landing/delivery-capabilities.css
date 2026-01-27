@@ -1,0 +1,68 @@
+.capabilities-section {
+  padding: 5rem 2rem;
+  background: var(--bg);
+}
+
+.capabilities-inner {
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.capabilities-heading {
+  font-size: 2.1rem;
+  font-weight: 600;
+  margin-bottom: 2.5rem;
+  color: var(--text-primary);
+}
+
+/* Grid */
+.capabilities-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 1.75rem;
+}
+
+/* Card */
+.capability-card {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 14px;
+  padding: 1.75rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+.capability-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+}
+
+/* Icon */
+.capability-icon {
+  font-size: 1.6rem;
+  color: var(--accent);
+}
+
+/* Title */
+.capability-card h3 {
+  font-size: 1.05rem;
+  font-weight: 600;
+  color: var(--text-primary);
+}
+
+/* Description */
+.capability-desc {
+  font-size: 0.95rem;
+  line-height: 1.6;
+  color: var(--text-secondary);
+}
+
+/* Outcome */
+.capability-outcome {
+  margin-top: auto;
+  font-size: 0.85rem;
+  font-weight: 500;
+  color: var(--accent);
+}
