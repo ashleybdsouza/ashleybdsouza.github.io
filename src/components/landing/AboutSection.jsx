@@ -1,11 +1,18 @@
 import { Link } from "react-router-dom";
 import { Github, Linkedin } from "lucide-react";
 import "../../styles/landing.css";
+import useInView from "../../hooks/useInView";
+
 
 export default function AboutSection() {
+  const [ref, inView] = useInView();
+
   return (
-    <section className="about-section">
-      <div className="about-inner">
+    <section
+      ref={ref}
+      className={`section about-section ${inView ? "in-view" : ""}`}
+    >      <div className="section-inner">
+        <div className="about-inner">
         <h1 className="about-heading">
           Hi, I’m Ashley
         </h1>
@@ -39,6 +46,7 @@ export default function AboutSection() {
             <Linkedin size={20} />
           </a>
         </div>
+      </div>
       </div>
     </section>
   );

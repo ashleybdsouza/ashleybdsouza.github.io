@@ -1,5 +1,7 @@
 import { useEffect, useRef, useState } from "react";
 import "../../styles/landing.css";
+import useInView from "../../hooks/useInView";
+
 
 const timeline = [
   {
@@ -62,10 +64,11 @@ export default function TimelineSection() {
 
     return () => observer.disconnect();
   }, []);
-
+  const [ref, inView] = useInView();
   return (
-    <section className="timeline-section">
-      <div className="timeline-inner">
+<section ref={ref} className={`section timeline-section ${inView ? "in-view" : ""}`}>
+      <div className="section-inner">
+        <div className="timeline-inner">
         <h2 className="timeline-heading">Experience Timeline</h2>
 
         <div className="timeline">
@@ -115,6 +118,7 @@ export default function TimelineSection() {
             </div>
           ))}
         </div>
+      </div>
       </div>
     </section>
   );

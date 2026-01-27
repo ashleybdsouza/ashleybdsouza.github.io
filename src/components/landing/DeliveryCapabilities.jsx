@@ -1,5 +1,6 @@
 import { FaProjectDiagram, FaShieldAlt, FaUsersCog, FaChartLine } from "react-icons/fa";
 import "./delivery-capabilities.css";
+import useInView from "../../hooks/useInView";
 
 const capabilities = [
   {
@@ -33,9 +34,12 @@ const capabilities = [
 ];
 
 export default function DeliveryCapabilities() {
+  const [ref, inView] = useInView();
   return (
-    <section className="capabilities-section">
-      <div className="capabilities-inner">
+    <section ref={ref} className={`section capabilities-section ${inView ? "in-view" : ""}`}>
+    
+      <div className="section-inner">
+        <div className="capabilities-inner">
         <h2 className="capabilities-heading">Delivery Capabilities</h2>
 
         <div className="capabilities-grid">
@@ -48,6 +52,7 @@ export default function DeliveryCapabilities() {
             </div>
           ))}
         </div>
+      </div>
       </div>
     </section>
   );

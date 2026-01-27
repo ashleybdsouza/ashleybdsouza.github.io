@@ -229,3 +229,21 @@
   background: var(--bg);
 }
 
+
+.section {
+  padding: var(--section-padding-y) 2rem;
+}
+
+.section-inner {
+  max-width: 960px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: var(--section-gap);
+}
+
+@media (max-width: 768px) {
+  .section {
+    padding: var(--section-padding-y-mobile) 1.5rem;
+  }
+}
