@@ -1,7 +1,8 @@
 /* ABOUT SECTION */
-
 .about-section {
   padding: 5rem 2rem 4rem;
+  background: var(--bg);
+  color: var(--text-primary);
 }
 
 .about-inner {
@@ -12,22 +13,17 @@
   gap: 1.75rem;
 }
 
-/* Heading */
 .about-heading {
   font-size: 2.2rem;
   font-weight: 600;
   letter-spacing: -0.02em;
-  color: #111;
 }
 
-/* Intro text */
 .about-intro {
   font-size: 1.05rem;
   line-height: 1.75;
-  color: #333;
 }
 
-/* Actions row */
 .about-actions {
   display: flex;
   align-items: center;
@@ -35,35 +31,27 @@
   margin-top: 0.5rem;
 }
 
-/* Button */
 .about-button {
   padding: 0.55rem 1.1rem;
-  border: 1px solid #111;
+  border: 1px solid var(--border);
   text-decoration: none;
-  color: #111;
+  color: var(--text-primary);
   font-size: 0.9rem;
   font-weight: 500;
   transition: background 0.2s ease, color 0.2s ease;
 }
 
 .about-button:hover {
-  background: #111;
-  color: #fff;
+  background: var(--accent);
+  color: var(--bg);
 }
 
-/* Social icons */
 .about-actions a {
-  color: #444;
+  color: var(--text-primary);
   display: flex;
   align-items: center;
-  transition: color 0.2s ease;
 }
 
-.about-actions a:hover {
-  color: #000;
-}
-
-/* Mobile refinement */
 @media (max-width: 768px) {
   .about-heading {
     font-size: 1.9rem;
@@ -78,7 +66,7 @@
 
 .timeline-section {
   padding: 4rem 2rem;
-  background: #fafafa;
+  background: var(--bg);
 }
 
 .timeline-inner {
@@ -90,7 +78,7 @@
   font-size: 1.6rem;
   font-weight: 600;
   margin-bottom: 3rem;
-  color: #111;
+  color: var(--text-primary);
 }
 
 /* Timeline container */
@@ -116,14 +104,14 @@
   top: 0;
   bottom: 0;
   width: 1px;
-  background: #ddd;
+  background: var(--border);
 }
 
 /* Marker dot */
 .timeline-marker {
   width: 12px;
   height: 12px;
-  background: #111;
+  background: var(--text-primary);
   border-radius: 50%;
   margin-top: 0.35rem;
   flex-shrink: 0;
@@ -138,18 +126,18 @@
 
 .timeline-period {
   font-size: 0.85rem;
-  color: #666;
+  color: var(--text-primary);
 }
 
 .timeline-title {
   font-size: 1rem;
   font-weight: 600;
-  color: #111;
+  color: var(--text-primary);
 }
 
 .timeline-title span {
   font-weight: 400;
-  color: #555;
+  color: var(--text-primary);
 }
 
 .timeline-content ul {
@@ -163,7 +151,7 @@
 .timeline-content li {
   font-size: 0.95rem;
   line-height: 1.5;
-  color: #333;
+  color: var(--text-primary);
 }
 
 /* Desktop enhancement */
@@ -205,8 +193,8 @@
   font-size: 0.7rem;
   padding: 0.25rem 0.5rem;
   border-radius: 999px;
-  background: #eee;
-  color: #333;
+  background: var(--bg);
+  color: var(--text-primary);
   font-weight: 500;
 }
 
@@ -216,7 +204,7 @@
   border: none;
   padding: 0;
   font-size: 0.85rem;
-  color: #555;
+  color: var(--text-primary);
   cursor: pointer;
   align-self: flex-start;
 }
@@ -237,7 +225,7 @@
   padding: 0.35rem 0.6rem;
   border: 1px solid #ddd;
   border-radius: 6px;
-  color: #111;
-  background: #fff;
+  color: var(--text-primary);
+  background: var(--bg);
 }
 

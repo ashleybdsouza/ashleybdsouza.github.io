@@ -4,13 +4,12 @@ import Landing from "./pages/Landing";
 import About from "./pages/About";
 import Blog from "./pages/Blog";
 import Projects from "./pages/Projects";
-
 function App() {
   return (
     <BrowserRouter>
       <Header />
 
-      <main style={{ maxWidth: "900px", margin: "0 auto" }}>
+      <main style={{ maxWidth: "max", margin: "0 auto" }}>
         <Routes>
           <Route path="/" element={<Landing />} />
           <Route path="/about" element={<About />} />

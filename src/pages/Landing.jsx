@@ -8,8 +8,7 @@ export default function Landing() {
     <main>
       <AboutSection />
       <TimelineSection />
-      <TechSection />
-      <FeaturedPostsSection />
+      
     </main>
   );
 }
