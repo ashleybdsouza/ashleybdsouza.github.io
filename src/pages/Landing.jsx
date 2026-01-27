@@ -1,8 +1,15 @@
+import AboutSection from "../components/landing/AboutSection";
+import TimelineSection from "../components/landing/TimelineSection";
+import TechSection from "../components/landing/TechSection";
+import FeaturedPostsSection from "../components/landing/FeaturedPostsSection";
+
 export default function Landing() {
   return (
-    <section>
-      <h1>Ashley Dsouza</h1>
-      <p>Technical Program Manager</p>
-    </section>
+    <main>
+      <AboutSection />
+      <TimelineSection />
+      <TechSection />
+      <FeaturedPostsSection />
+    </main>
   );
 }
