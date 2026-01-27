@@ -5,11 +5,15 @@ import "../../styles/landing.css";
 export default function AboutSection() {
   return (
     <section className="about-section">
-      <div className="about-content">
-        <p className="intro">
-          Hi, I’m Ashley — a Technical Program Manager with a passion for
-          technology and a proven track record of delivering complex,
-          high-impact projects on time and within budget.
+      <div className="about-inner">
+        <h1 className="about-heading">
+          Hi, I’m Ashley
+        </h1>
+
+        <p className="about-intro">
+          I’m a Technical Program Manager with a passion for technology and a
+          proven track record of delivering complex, high-impact projects on
+          time and within budget.
         </p>
 
         <div className="about-actions">
@@ -23,16 +27,16 @@ export default function AboutSection() {
             rel="noreferrer"
             aria-label="GitHub"
           >
-            <Github size={22} />
+            <Github size={20} />
           </a>
 
           <a
-            href="https://www.linkedin.com/in/ashleybdsouza"
+            href="https://www.linkedin.com/in/ashley-dsouza"
             target="_blank"
             rel="noreferrer"
             aria-label="LinkedIn"
           >
-            <Linkedin size={22} />
+            <Linkedin size={20} />
           </a>
         </div>
       </div>
