@@ -4,11 +4,14 @@ import TechSection from "../components/landing/TechSection";
 import FeaturedPostsSection from "../components/landing/FeaturedPostsSection";
 
 export default function Landing() {
+
+
   return (
     <main>
       <AboutSection />
       <TimelineSection />
-      
+      <TechSection />
+      <FeaturedPostsSection />
     </main>
   );
 }

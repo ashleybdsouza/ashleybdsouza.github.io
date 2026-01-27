@@ -17,3 +17,25 @@ body.dark {
   --border: #2a2a2a;
   --accent: #ffffff;
 }
+
+* {
+  transition:
+    background-color 300ms ease,
+    color 300ms ease,
+    border-color 300ms ease,
+    box-shadow 300ms ease;
+}
+
+body, header, section, nav, main, footer, button, a, div {
+  transition:
+    background-color 300ms ease,
+    color 300ms ease,
+    border-color 300ms ease;
+}
+
+
+@media (prefers-reduced-motion: reduce) {
+  * {
+    transition: none !important;
+  }
+}
