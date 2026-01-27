@@ -31,7 +31,7 @@ export default function AboutSection() {
           </a>
 
           <a
-            href="https://www.linkedin.com/in/ashley-dsouza"
+            href="https://www.linkedin.com/in/ashleybdsouza"
             target="_blank"
             rel="noreferrer"
             aria-label="LinkedIn"
