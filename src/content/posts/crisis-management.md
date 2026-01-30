@@ -2,7 +2,7 @@
 title: Code Red! The TPM's Guide to Project Crisis Management
 date: 2025-02-08
 excerpt: How-to Manage a Crisis
-tags: [architecture, compliance, delivery]
+tags: [Crisis Management,Incident Management,Project Management,TPM,Technical Program Manager]
 ---
 
 The Slack channel exploded with red alert emojis. CPU usage on the production servers was spiking, and user reports of 500 errors were flooding in. My phone started buzzing with calls from the VP of Engineering. As the TPM for the project, I felt that familiar knot of anxiety in my stomach. This was it. Crisis mode.
@@ -15,7 +15,7 @@ This isn't your average "stay calm and carry on" crisis management guide. This i
 ## The Crisis Hits: Your TPM Action Plan
 Forget generic advice. Here's a concrete, step-by-step approach for the first critical hours of a project crisis:
 ### 1.1 Breathe and Assess (The 'Stop, Drop, and Roll' of TPM Crises)
-![Crisis Management](/images/stop-drop-roll.png)
+![Drop Roll](/images/stop-drop-roll.png)
 Stop: Resist the urge to immediately jump to solutions. Take a few deep breaths. A panicked TPM is a less effective TPM.
 Drop: Drop whatever non-critical tasks you're working on. This is your priority now.
 Roll (into Action): Start gathering information:
@@ -41,9 +41,9 @@ Implementing a temporary workaround.
 Disabling a specific feature.
 Document Everything: Keep a detailed log of every action taken, every decision made, and the rationale behind them. This is crucial for the post-mortem.
 
-> Example
+### Example
 > When our database went down, we didn't immediately start debugging the root cause.  Our first action was to switch to a read-only replica, restoring partial functionality to our users within 15 minutes.  Then, while service was degraded but stable, we started investigating the primary database failure.  This prevented a complete outage and bought us crucial time.
-![Crisis Management](/images/crisis-checklist.png)
+![Crisis Checklist](/images/crisis-checklist.png)
 
 ## Communication: Your Secret Weapon in the Crisis
 Clear, consistent, and honest communication is everything during a crisis. This isn't just about keeping people informed; it's about maintaining trust and preventing panic.
@@ -66,7 +66,7 @@ Status Page: Use a service like Statuspage, Atlassian Statuspage, or a simple in
 Email Templates: Prepare template emails for common crisis scenarios (outage, data breach, etc.) that you can quickly adapt.
 Communication Matrix: A simple table outlining who needs to be informed, how, and how often.
 
-> Example
+### Example
 > During a recent security incident, we immediately updated our status page with a brief, non-technical explanation: 'We are experiencing a security issue affecting [service]. Our team is working to resolve it as quickly as possible. We will provide updates every hour.'  This reassured users that we were aware of the problem and working on it, preventing a flood of support tickets and negative social media posts.
 
 ## The Post-Mortem: Learning from the Fire
@@ -91,7 +91,7 @@ Post-Mortem Report: Write a clear, concise report summarizing the findings, incl
 Share Widely: Make the report accessible to the entire team, and relevant stakeholders. This promotes transparency and shared learning.
 Track Action Items: Treat the action items from the post-mortem like any other high-priority task. Assign owners, track progress, and ensure they are completed.
 
-> Example
+### Example
 > Our post-mortem revealed that the database outage was caused by a combination of factors: a misconfigured monitoring alert, a lack of automated failover, and insufficient capacity planning.  We assigned action items to address each of these issues: updating the monitoring configuration, implementing automated failover, and revising our capacity planning process. We also scheduled a training session on database best practices for the entire engineering team.
 
 ## Conclusion

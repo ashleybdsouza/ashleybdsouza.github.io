@@ -104,3 +104,65 @@ body.dark .post-card:hover {
   box-shadow: 0 8px 24px rgba(0, 0, 0, 0.6);
 }
 
+.post-content strong {
+  font-weight: 600;
+  color: var(--text-primary);
+}
+
+.post-content em {
+  font-style: italic;
+  color: var(--text-secondary);
+}
+
+.post-content u {
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+.post-content ul,
+.post-content ol {
+  margin: 1.5rem 0;
+  padding-left: 1.75rem;
+}
+
+.post-content li {
+  margin-bottom: 0.6rem;
+  line-height: 1.6;
+}
+
+.post-content code {
+  background: var(--bg-muted);
+  padding: 0.15rem 0.35rem;
+  border-radius: 4px;
+  font-size: 0.95em;
+  font-family: ui-monospace, SFMono-Regular, Menlo, monospace;
+}
+
+.post-content pre {
+  background: var(--bg-muted);
+  padding: 1.25rem 1.5rem;
+  border-radius: 6px;
+  overflow-x: auto;
+  margin: 2rem 0;
+}
+
+.post-content pre code {
+  background: none;
+  padding: 0;
+  font-size: 0.9rem;
+}
+
+.post-content p strong:first-child {
+  display: inline-block;
+  margin-right: 0.25rem;
+}
+
+.post-content img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 2rem auto;
+}
+
+
+
