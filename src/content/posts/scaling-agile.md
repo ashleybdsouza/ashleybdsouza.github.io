@@ -1,8 +1,8 @@
 ---
-title: Bridging the Gap - Building a Powerful TPM-Engineering Partnership
+title: Scaling Agile - The TPM's Playbook for Orchestrating Large-Scale Transformation
 date: 2025-02-22
-excerpt: TPM + Engineering partnership.
-tags: [paretnerships, cross-functional teams, relationship building, trust, empathy]
+excerpt: Scaling Organizations using Agile
+tags: [Agile Scaling,Agile,Agile Transformation,Technical Program Manager]
 ---
 
 # TL;DR

@@ -2,7 +2,7 @@
 title: Bridging the Gap - Building a Powerful TPM-Engineering Partnership
 date: 2025-02-22
 excerpt: TPM + Engineering partnership.
-tags: [paretnerships, cross-functional teams, relationship building, trust, empathy]
+tags: [partnerships, cross-functional teams, relationship building, trust, empathy]
 ---
 
 I'll never forget the first time I, as a newly minted TPM, walked into a room full of seasoned engineers. I presented my meticulously crafted project plan, brimming with timelines and dependencies, only to be met with a sea of skeptical faces. One engineer finally spoke up: "This plan looks great on paper, but it doesn't reflect the realities of our development process."  It was a humbling, yet crucial, lesson: a strong TPM-Engineering partnership is built on mutual understanding, respect, and a shared commitment to achieving common goals.
