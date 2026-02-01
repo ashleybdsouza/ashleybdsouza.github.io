@@ -107,7 +107,7 @@ Track Action Items: Treat the action items from the post-mortem like any other h
 ## Conclusion
 Crises are inevitable in the world of software development. But they don't have to be catastrophic. By embracing a proactive approach to crisis management, mastering clear communication, and, most importantly, learning from our mistakes, we can transform these challenging moments into opportunities for growth and improvement. As TPMs, we are the calm in the storm, the leaders who guide our teams through the turbulence and emerge stronger on the other side. So, the next time the red alert flashes, don't panic. Remember this guide, take a deep breath, and lead your team to victory.`,__vite_glob_0_1=`---
 title: The Innovative TPM - How to Spark Creativity and Drive Breakthroughs
-date: 2025-02-15
+date: 2025-01-25
 excerpt: Drive to Innovate
 tags: [Innovation,Creativity,Ideation,Brainstorming,Innovation Workshops]
 ---
@@ -313,10 +313,10 @@ Conferences and Events: Encourage team members to attend industry conferences or
 
 ## Conclusion
 The rise of distributed teams presents exciting new possibilities for how we work and collaborate. As TPMs, we have a unique opportunity to shape this future and build high-performing, engaged teams that span the globe. By embracing the best practices, tools, and techniques outlined in this post, we can overcome the challenges of managing programs across time zones, foster effective remote collaboration, and build strong team cohesion, even when we're miles apart.  The key is to be intentional, proactive, and adaptable. Embrace the unique advantages of distributed work, and you'll be well on your way to leading successful programs in this increasingly interconnected world. Now, go forth and build those bridges across continents!`,__vite_glob_0_3=`---
-title: Bridging the Gap - Building a Powerful TPM-Engineering Partnership
+title: Scaling Agile - The TPM's Playbook for Orchestrating Large-Scale Transformation
 date: 2025-02-22
-excerpt: TPM + Engineering partnership.
-tags: [paretnerships, cross-functional teams, relationship building, trust, empathy]
+excerpt: Scaling Organizations using Agile
+tags: [Agile Scaling,Agile,Agile Transformation,Technical Program Manager]
 ---
 
 # TL;DR
@@ -388,7 +388,7 @@ Metrics We Used to Prove the Transformation Worked
 title: Bridging the Gap - Building a Powerful TPM-Engineering Partnership
 date: 2025-02-22
 excerpt: TPM + Engineering partnership.
-tags: [paretnerships, cross-functional teams, relationship building, trust, empathy]
+tags: [partnerships, cross-functional teams, relationship building, trust, empathy]
 ---
 
 I'll never forget the first time I, as a newly minted TPM, walked into a room full of seasoned engineers. I presented my meticulously crafted project plan, brimming with timelines and dependencies, only to be met with a sea of skeptical faces. One engineer finally spoke up: "This plan looks great on paper, but it doesn't reflect the realities of our development process."  It was a humbling, yet crucial, lesson: a strong TPM-Engineering partnership is built on mutual understanding, respect, and a shared commitment to achieving common goals.
