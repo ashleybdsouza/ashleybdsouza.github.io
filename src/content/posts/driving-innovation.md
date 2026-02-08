@@ -1,6 +1,6 @@
 ---
 title: The Innovative TPM - How to Spark Creativity and Drive Breakthroughs
-date: 2025-01-25
+date: 2025-02-25
 excerpt: Drive to Innovate
 tags: [Innovation,Creativity,Ideation,Brainstorming,Innovation Workshops]
 ---

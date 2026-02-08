@@ -1,6 +1,6 @@
 ---
 title: Scaling Agile - The TPM's Playbook for Orchestrating Large-Scale Transformation
-date: 2025-02-22
+date: 2025-01-22
 excerpt: Scaling Organizations using Agile
 tags: [Agile Scaling,Agile,Agile Transformation,Technical Program Manager]
 ---
@@ -44,6 +44,71 @@ This post breaks down how I approached that transformation—what worked, what d
 - **Change leadership**: Addressed resistance head-on, not passively
 
 ### 2. Turn “challenges” into decision records
+**2.1 Maintaining Alignment and Coordination at Scale**
+- The Problem
+
+When we scaled past a handful of teams, alignment broke down fast.
+
+Teams planned sprints independently, optimized for their local goals, and surfaced dependencies too late—often during execution instead of planning. The result was predictable: missed commitments, last-minute escalations, and growing frustration between teams.
+
+This wasn’t a delivery problem.
+It was a system design problem.
+
+- My Decision as TPM
+
+I made a deliberate shift from team-level coordination to portfolio-level alignment.
+
+Instead of asking, “Are teams executing well?”
+I started asking, “Is the system enabling teams to succeed?”
+
+Concretely, I introduced three changes:
+
+Portfolio-level planning to align priorities across teams
+
+Scrum of Scrums to surface dependencies early
+
+Shared visibility tools so risks were explicit, not tribal knowledge
+
+I evaluated formal frameworks like SAFe and LeSS, but opted to selectively adopt their principles rather than fully implement a heavyweight model. The goal was alignment—not process overhead.
+
+- Tradeoffs I Accepted
+
+This approach came with real costs:
+
+More coordination meetings
+
+Increased upfront planning time
+
+A learning curve for teams used to full autonomy
+
+However, these were intentional tradeoffs.
+The cost of not aligning—missed releases and reactive firefighting—was far higher.
+
+- How It Played Out
+
+Once dependencies were discussed during planning instead of during execution:
+
+Teams could sequence work more intelligently
+
+Risks were raised weeks earlier
+
+Leadership conversations shifted from “why are we late?” to “what needs help?”
+
+Scrum of Scrums stopped being a status meeting and became a risk management forum—exactly what we needed at our scale.
+
+- Outcome
+
+Within a few planning cycles:
+
+Fewer last-minute dependency blockers
+
+More predictable delivery windows
+
+Clear ownership of cross-team commitments
+
+Most importantly, teams felt less surprised—which directly improved trust and morale.
+
+
 **Challenge**
 - Teams were prioritizing independently, causing missed dependencies and delayed releases.
 
