@@ -1,5 +1,4 @@
 // src/utils/loadPosts.js
-
 import matter from "gray-matter";
 
 function parseFrontmatter(raw) {
@@ -12,8 +11,6 @@ const postFiles = import.meta.glob("../content/posts/*.md", {
   as: "raw"
 });
 
-console.log(postFiles);
-
 export function loadPosts() {
   return Object.entries(postFiles)
     .map(([path, raw]) => {
@@ -23,11 +20,18 @@ export function loadPosts() {
       const slug = data.slug || filenameSlug;
       const date = data.date ? new Date(data.date) : null;
 
+      // ✅ Browser-safe reading time
+      const words = content.trim().split(/\s+/).length;
+      const readingTimeMinutes = Math.ceil(words / 200);
+
       return {
         slug,
         ...data,
-        date, // keep original date
+        date,
         content,
+        readingTime: `${readingTimeMinutes} min read`,
+        readingTimeMinutes,
+
         formattedDate: date
           ? date.toLocaleDateString("en-US", {
               year: "numeric",
@@ -36,7 +40,6 @@ export function loadPosts() {
             })
           : null,
       };
-
     })
     .filter((post) => post.date)
     .sort((a, b) => new Date(b.date) - new Date(a.date));

@@ -37,6 +37,9 @@ export default function Blog() {
               className="post-card"
             >
               <div className="post-meta">{formatDate(post.date)}</div>
+              <p className="post-meta">
+                {formatDate(post.date)} • {post.readingTime}
+              </p>
               <h3 className="post-title">{post.title}</h3>
               <p className="post-excerpt">{post.excerpt}</p>
               <span className="post-link">Read →</span>

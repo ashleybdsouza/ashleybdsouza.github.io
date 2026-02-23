@@ -24,6 +24,9 @@ export default function FeaturedPostsSection() {
               className="post-card"
             >
               <div className="post-meta">{post.formattedDate}</div>
+              <p>
+                {post.formattedDate} • {post.readingTime}
+              </p>
               <h3 className="post-title">{post.title}</h3>
               <p className="post-excerpt">{post.excerpt}</p>
               <span className="post-link">Read →</span>
