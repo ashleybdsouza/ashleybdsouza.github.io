@@ -6,8 +6,8 @@ import useInView from "../../hooks/useInView";
 const timeline = [
   {
     period: "Feb 2025 – Present",
-    title: "Director",
-    company: "Self-Employed",
+    title: "Technical Program Manager",
+    company: "Press Ganey Forsta",
     wins: ["Compliance", "Payments", "Security and Identity", "Leadership", "Risk Management"],
     metrics: ["10 cross-functional teams"],
     highlights: [
