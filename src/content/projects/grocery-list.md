@@ -4,8 +4,8 @@ slug: "grocery-list"
 date: "2026-04-15"
 excerpt: "Grocery List using the concept of To-Do List."
 thumbnail: "/images/grocery.png"
-demo: "https://ashleybdsouza.github.io/risk-workbench/"
-source: "https://github.com/ashleybdsouza/risk-workbench"
+demo: "https://ashleybdsouza.netlify.app/pages/2-grocery-list/"
+source: "https://github.com/ashleybdsouza/tech-journey"
 tags: ["AI","HTML", "CSS", "Javascript", "Charts"]
 ---
 

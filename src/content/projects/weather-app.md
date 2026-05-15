@@ -4,8 +4,8 @@ slug: "weather-app"
 date: "2025-06-01"
 excerpt: "Football Standings using APIs, DataTables."
 thumbnail: "/images/weather-logo.png"
-demo: "https://ashleybdsouza.netlify.app/pages/4-football-standings/"
-source: "https://github.com/ashleybdsouza/tech-journey"
+demo: "https://ashleybdsouza.github.io/weather-app/"
+source: "https://github.com/ashleybdsouza/weather-app"
 tags: ["API","HTML", "CSS", "Javascript"]
 ---
 

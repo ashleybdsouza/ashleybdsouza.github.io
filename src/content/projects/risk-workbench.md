@@ -4,9 +4,9 @@ slug: "risk-workbench"
 date: "2026-05-14"
 excerpt: "Analyzing Risky transactions or onboarding using AI."
 thumbnail: "/images/weather-logo.png"
-demo: "https://ashleybdsouza.netlify.app/pages/4-football-standings/"
-source: "https://github.com/ashleybdsouza/tech-journey"
-tags: ["API","HTML", "CSS", "Javascript"]
+demo: "https://ashleybdsouza.github.io/risk-workbench/"
+source: "https://github.com/ashleybdsouza/risk-workbench"
+tags: ["AI","HTML", "CSS", "Javascript", "Charts"]
 ---
 
 ## Overview
