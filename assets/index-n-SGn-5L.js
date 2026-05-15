@@ -1958,8 +1958,8 @@ slug: "grocery-list"
 date: "2026-04-15"
 excerpt: "Grocery List using the concept of To-Do List."
 thumbnail: "/images/grocery.png"
-demo: "https://ashleybdsouza.github.io/risk-workbench/"
-source: "https://github.com/ashleybdsouza/risk-workbench"
+demo: "https://ashleybdsouza.netlify.app/pages/2-grocery-list/"
+source: "https://github.com/ashleybdsouza/tech-journey"
 tags: ["AI","HTML", "CSS", "Javascript", "Charts"]
 ---
 
@@ -2000,9 +2000,9 @@ slug: "risk-workbench"
 date: "2026-05-14"
 excerpt: "Analyzing Risky transactions or onboarding using AI."
 thumbnail: "/images/weather-logo.png"
-demo: "https://ashleybdsouza.netlify.app/pages/4-football-standings/"
-source: "https://github.com/ashleybdsouza/tech-journey"
-tags: ["API","HTML", "CSS", "Javascript"]
+demo: "https://ashleybdsouza.github.io/risk-workbench/"
+source: "https://github.com/ashleybdsouza/risk-workbench"
+tags: ["AI","HTML", "CSS", "Javascript", "Charts"]
 ---
 
 ## Overview
@@ -2014,8 +2014,8 @@ slug: "weather-app"
 date: "2025-06-01"
 excerpt: "Football Standings using APIs, DataTables."
 thumbnail: "/images/weather-logo.png"
-demo: "https://ashleybdsouza.netlify.app/pages/4-football-standings/"
-source: "https://github.com/ashleybdsouza/tech-journey"
+demo: "https://ashleybdsouza.github.io/weather-app/"
+source: "https://github.com/ashleybdsouza/weather-app"
 tags: ["API","HTML", "CSS", "Javascript"]
 ---
 
