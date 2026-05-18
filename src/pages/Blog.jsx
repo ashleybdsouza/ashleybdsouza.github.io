@@ -31,7 +31,7 @@ export default function Blog() {
         );
       });
   }, [searchQuery, posts]);
-
+  console.log("filteredPosts:", filteredPosts.map(p => ({ slug: p.slug, date: p.date, readingTime: p.readingTime })));
   return (
     <main
       ref={ref}
@@ -61,9 +61,8 @@ export default function Blog() {
               to={`/blog/${post.slug}`}
               className="post-card"
             >
-              <div className="post-meta">{formatDate(post.date)}</div>
               <p className="post-meta">
-                {formatDate(post.date)} • {post.readingTime}
+                {formatDate(post.date)} • {post.readingTime} mins read
               </p>
               <h3 className="post-title">{post.title}</h3>
               <p className="post-excerpt">{post.excerpt}</p>

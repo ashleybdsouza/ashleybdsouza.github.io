@@ -34,7 +34,7 @@ export default function Post() {
         <div className="post-meta">
           <span>{post.formattedDate}</span>
           <span> • </span>
-          <span>{post.readingTime}</span>
+          <span>{post.readingTime}</span> mins read
         </div>
 
 <article className="post-content">

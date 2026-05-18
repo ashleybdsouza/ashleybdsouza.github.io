@@ -56,6 +56,6 @@ export function loadPosts() {
       }
     })
     .filter(Boolean)
-    .filter((post) => post.date)
+    .filter((post) => post.date && post.date <= new Date())
     .sort((a, b) => new Date(b.date) - new Date(a.date));
 }
