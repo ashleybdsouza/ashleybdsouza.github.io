@@ -8,7 +8,8 @@ function parseFrontmatter(raw) {
 
 const projectFiles = import.meta.glob("../content/projects/*.md", {
   eager: true,
-  as: "raw",
+  query: "raw",
+  import: "default",
 });
 
 export function loadProjects() {
