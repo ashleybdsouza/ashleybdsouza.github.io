@@ -233,7 +233,7 @@ Mastering dependency management means mastering the flow of work across complex 
 
 And in large-scale programs, flow is everything.`,__vite_glob_0_2$1=`---
 title: The Innovative TPM - How to Spark Creativity and Drive Breakthroughs
-date: 2025-02-25
+date: 2026-02-25
 excerpt: Drive to Innovate
 tags: [Innovation,Creativity,Ideation,Brainstorming,Innovation Workshops]
 ---
@@ -1803,7 +1803,7 @@ One of the biggest challenges for TPMs is finding the right balance between deli
 
 ### 4. Conclusion
 Managing technical debt isn't just about writing cleaner code; it's about building a sustainable foundation for future innovation.  It's about empowering your team to move faster, deliver better products, and ultimately achieve greater success. By adopting the strategies outlined in this post – quantifying the impact, prioritizing effectively, and balancing new feature development with debt reduction – you can transform technical debt from a daunting challenge into a manageable aspect of your development process.  Don't let the technical debt monster hold your projects hostage. Take control, start small, and build a culture of continuous improvement. The future of your codebase, and your team's success, depends on it. Now, go forth and tame that technical debt!`,__vite_glob_0_11=`---
-title: The TPM Career Path: From Junior to Senior and Beyond
+title: The TPM Career Path- From Junior to Senior and Beyond
 date: 2026-05-17
 excerpt: What it really takes to grow as a TPM, different TPM specializations, and how to transition into the role without losing your sanity.
 tags: [TPM, Technical Program Manager, Career Growth, Leadership, Program Management, AI/ML, Platform Engineering]
