@@ -1,5 +1,5 @@
 ---
-title: The TPM Career Path: From Junior to Senior and Beyond
+title: The TPM Career Path- From Junior to Senior and Beyond
 date: 2026-05-17
 excerpt: What it really takes to grow as a TPM, different TPM specializations, and how to transition into the role without losing your sanity.
 tags: [TPM, Technical Program Manager, Career Growth, Leadership, Program Management, AI/ML, Platform Engineering]
