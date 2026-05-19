@@ -7,7 +7,7 @@ const timeline = [
   {
     period: "Feb 2025 – Present",
     title: "Senior Technical Program Manager",
-    company: "Press Ganey Forsta",
+    company: "Self-Employed",
     wins: ["Compliance", "Payments", "Security and Identity", "Leadership", "Risk Management"],
     metrics: ["10 cross-functional teams"],
     highlights: [
