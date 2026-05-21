@@ -46,7 +46,8 @@ const timeline = [
 
 export default function TimelineSection() {
   const itemRefs = useRef([]);
-  const [expanded, setExpanded] = useState(false);
+  const [expanded, setExpanded] = useState({});
+
 
   useEffect(() => {
     const observer = new IntersectionObserver(
@@ -101,19 +102,17 @@ export default function TimelineSection() {
                 </div>
                 <button
                   className="timeline-toggle"
-                  onClick={() => setExpanded(!expanded)}
+                  onClick={() => setExpanded(prev => ({ ...prev, [index]: !prev[index] }))}
                 >
-                  {expanded ? "Hide details" : "Show details"}
+                  {expanded[index] ? "Hide details" : "Show details"}
                 </button>
-
-                {expanded && (
+                {expanded[index] && (
                   <ul>
                     {item.highlights.map((point, i) => (
                       <li key={i}>{point}</li>
                     ))}
                   </ul>
                 )}
-                
               </div>
             </div>
           ))}
