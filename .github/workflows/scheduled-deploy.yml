@@ -1,8 +1,11 @@
 name: Scheduled Deploy
 on:
   schedule:
-    - cron: '0 21 * * 0'  # runs every Sunday at 9pm UTC
+    - cron: '0 21 * * 0'
   workflow_dispatch:
+
+permissions:
+  contents: write
 
 jobs:
   deploy:
