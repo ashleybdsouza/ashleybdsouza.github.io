@@ -1,6 +1,6 @@
 ---
 title: The TPM's Guide to Prioritization Frameworks- Mastering the Art of Focus
-date: 2025-01-13
+date: "2025-01-13"
 excerpt: Prioritization as a TPM
 tags: [Prioritization,Prioritization Frameworks,TPM (or Technical Program Manager),Program Management,Project Management]
 ---

@@ -95,3 +95,37 @@
 .search-input:focus {
   border-color: #111;
 }
+
+.pagination {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+  margin-top: 3rem;
+}
+
+.page-btn {
+  background: none;
+  border: 1px solid var(--border);
+  color: var(--text-primary);
+  padding: 0.4rem 0.85rem;
+  border-radius: 6px;
+  font-size: 0.9rem;
+  cursor: pointer;
+  transition: background 0.2s ease, color 0.2s ease;
+}
+
+.page-btn:hover:not(:disabled) {
+  background: var(--text-primary);
+  color: var(--bg);
+}
+
+.page-btn.active {
+  background: var(--text-primary);
+  color: var(--bg);
+}
+
+.page-btn:disabled {
+  opacity: 0.3;
+  cursor: not-allowed;
+}

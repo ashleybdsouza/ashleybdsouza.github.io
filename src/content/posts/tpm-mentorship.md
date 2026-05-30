@@ -1,6 +1,6 @@
 ---
 title: Mentorship and Coaching for TPMs - Growing Beyond Delivery
-date: 2026-05-17
+date: "2026-05-17"
 excerpt: Why mentorship matters for TPMs, how to find the right mentor, and why coaching is one of the most underrated TPM superpowers.
 tags: [TPM, Mentorship, Coaching, Leadership, Career Growth, Technical Program Manager]
 ---

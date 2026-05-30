@@ -1,6 +1,6 @@
 ---
 title: The Remote TPM's Handbook - Mastering Program Management in a Distributed World
-date: 2025-02-01
+date: "2025-02-01"
 excerpt: How-to Manage a Crisis
 tags: [Distributed Teams,Remote Work,Remote Collaboration,Time Zone Management,Asynchronous Communication]
 ---

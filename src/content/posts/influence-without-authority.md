@@ -1,6 +1,6 @@
 ---
 title: Influence Without Authority- A TPM's Guide to Success
-date: 2024-12-31
+date: "2024-12-31"
 excerpt: Influencing teams for optimal results
 tags: [Influence, Leadership, Persuasion,Communication,Collaboration]
 ---

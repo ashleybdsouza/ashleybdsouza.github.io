@@ -1,6 +1,6 @@
 ---
 title: Bridging the Gap - Building a Powerful TPM-Engineering Partnership
-date: 2025-02-22
+date: "2025-02-22"
 excerpt: TPM + Engineering partnership.
 tags: [partnerships, cross-functional teams, relationship building, trust, empathy]
 ---

@@ -1,30 +1,8 @@
 ---
 title: Effective Meeting Facilitation- Stop Wasting Time and Start Getting Results
-date: 2025-01-05
+date: "2025-01-05"
 excerpt: Practical strategies for running productive meetings, keeping discussions on track, and making virtual sessions just as effective as in-person ones.
-tags: [
-  Meeting Facilitation,
-  Productive Meetings,
-  Meeting Management,
-  TPM,
-  Program Management,
-  Project Management,
-  Time Management,
-  Efficiency,
-  Communication,
-  Collaboration,
-  Meeting Agenda,
-  Action Items,
-  Decision Making,
-  Problem Solving,
-  Virtual Meetings,
-  Remote Meetings,
-  Timeboxing,
-  Parking Lot,
-  Leadership,
-  Facilitation Skills,
-  Team Productivity
-]
+tags: [Meeting Facilitation, Productive Meetings, Meeting Management, TPM, Program Management, Project Management, Time Management, Efficiency, Communication, Collaboration, Meeting Agenda, Action Items, Decision Making, Problem Solving, Virtual Meetings, Remote Meetings, Timeboxing, Parking Lot, Leadership, Facilitation Skills, Team Productivity]
 ---
 
 As Technical Program Managers (TPMs), we spend a significant portion of our time in meetings.

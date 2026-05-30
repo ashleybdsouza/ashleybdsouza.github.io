@@ -1,6 +1,6 @@
 ---
 title: TPM's Guide to Proactive Risk Management- Forewarned is Forearmed
-date: 2024-12-01
+date: "2024-12-01"
 excerpt: Prioritization as a TPM
 tags: [Prioritization,Prioritization Frameworks,TPM (or Technical Program Manager),Program Management,Project Management]
 ---

@@ -1,6 +1,6 @@
 ---
 title: Code Red! The TPM's Guide to Project Crisis Management
-date: 2025-05-17
+date: "2025-05-17"
 excerpt: How-to Manage a Crisis
 tags: [Crisis Management,Incident Management,Project Management,TPM,Technical Program Manager]
 ---

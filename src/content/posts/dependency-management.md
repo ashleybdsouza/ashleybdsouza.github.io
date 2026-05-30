@@ -1,6 +1,6 @@
 ---
 title: Dependency Management Mastery - The Key to Seamless Project Execution
-date: 2024-12-15
+date: "2024-12-15"
 excerpt: Mastering dependency mapping, tracking, and prevention strategies to ensure seamless project execution at scale.
 tags: [Dependency Management, TPM, Program Management, Planning, Critical Path, Bottlenecks, Jira, Asana]
 ---

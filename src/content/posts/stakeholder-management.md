@@ -1,28 +1,8 @@
 ---
 title: Stakeholder Management Strategies- The TPM's Guide to Influence and Alignment
-date: 2025-01-03
+date: "2025-01-03"
 excerpt: Practical strategies for identifying, prioritizing, and effectively managing stakeholders to drive successful program outcomes.
-tags: [
-  Stakeholder Management,
-  Stakeholder Engagement,
-  Communication,
-  Relationship Building,
-  Project Management,
-  TPM,
-  Program Management,
-  Influence,
-  Collaboration,
-  Stakeholder Analysis,
-  Stakeholder Mapping,
-  Stakeholder Prioritization,
-  Difficult Stakeholders,
-  Building Trust,
-  Managing Expectations,
-  Communication Planning,
-  Alignment,
-  Buy-in,
-  Customer Focus
-]
+tags: [ Stakeholder Management, Stakeholder Engagement,Communication, Relationship Building, Project Management, TPM, Program Management, Influence, Collaboration, Stakeholder Analysis, Stakeholder Mapping, Stakeholder Prioritization, Difficult Stakeholders, Building Trust, Managing Expectations, Communication Planning, Alignment, Buy-in, Customer Focus]
 ---
 
 As a Technical Program Manager (TPM), you're not just managing projects — you're managing relationships.

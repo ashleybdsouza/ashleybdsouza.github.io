@@ -1,6 +1,6 @@
 ---
 title: The TPM's Guide to Taming Technical Debt:- A Strategic Approach to Long-Term Health
-date: 2024-12-31
+date: "2024-12-31"
 excerpt: Approaching technical debt
 tags: [Technical Debt,TPM,Technical Program Manager,Program Management,Software Development]
 ---

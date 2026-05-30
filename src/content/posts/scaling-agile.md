@@ -1,6 +1,6 @@
 ---
 title: Scaling Agile - The TPM's Playbook for Orchestrating Large-Scale Transformation
-date: 2025-01-22
+date: "2025-01-22"
 excerpt: Scaling Organizations using Agile
 tags: [Agile Scaling,Agile,Agile Transformation,Technical Program Manager]
 ---
