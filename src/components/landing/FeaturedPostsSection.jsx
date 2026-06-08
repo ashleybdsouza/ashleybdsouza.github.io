@@ -23,9 +23,8 @@ export default function FeaturedPostsSection() {
               to={`/blog/${post.slug}`}
               className="post-card"
             >
-              <div className="post-meta">{post.formattedDate}</div>
               <p>
-                {post.formattedDate} • {post.readingTime}
+                {post.formattedDate} • {post.readingTime} mins read
               </p>
               <h3 className="post-title">{post.title}</h3>
               <p className="post-excerpt">{post.excerpt}</p>
