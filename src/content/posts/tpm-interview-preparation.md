@@ -5,8 +5,6 @@ excerpt: Learn how to prepare for Technical Program Manager interviews with comm
 tags: [TPM, Technical Program Manager, Interview Preparation, Career Growth, Leadership, Program Management, Case Studies, Job Search]
 ---
 
-# TPM Interview Preparation: Common Questions, Case Studies, and What Interviewers Really Look For
-
 Technical Program Management interviews can be challenging because there is no single TPM interview format.
 
 One company may focus heavily on technical depth.
